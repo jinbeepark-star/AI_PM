@@ -1,13 +1,13 @@
 id: 260317_voice_clone_studio
 display_name: Voice Clone Studio
 type: python-pipeline
-status: planned
+status: active
 owner: ethan
 team: T2
-tier: L0
+tier: L1
 summary: AI 음성 복제 스튜디오 — TTS/음성 복제/더빙 통합 에이전트
 created: 2026-03-17
-last_active: 2026-03-17
+last_active: 2026-04-22
 
 runtime: python
 commands:
