@@ -1,3 +1,10 @@
+---
+chapter: "A.4"
+title: "유즈케이스: PM 일일 브리핑 자동화"
+claude_model: claude-opus-4-7
+last_updated: 2026-05-19
+---
+
 # 유즈케이스: PM 일일 브리핑 자동화
 
 > **PM 역량**: 운영 효율 / 정보 종합 / 의사결정 속도

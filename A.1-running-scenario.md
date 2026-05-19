@@ -1,3 +1,10 @@
+---
+chapter: "A.1"
+title: "관통 시나리오: PlanMyDay — 하나의 제품으로 보는 PM 워크플로우 전체"
+claude_model: claude-opus-4-7
+last_updated: 2026-05-19
+---
+
 # 관통 시나리오: PlanMyDay — 하나의 제품으로 보는 PM 워크플로우 전체
 
 ## 이 시나리오에 대하여

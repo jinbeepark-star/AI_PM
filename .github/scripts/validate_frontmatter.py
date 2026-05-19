@@ -59,9 +59,23 @@ def validate(path: Path) -> list[str]:
     return errors
 
 
+# 챕터 파일만 검증 (X.Y-*.md, X.Y.Z-*.md, A.N-*.md)
+CHAPTER_FILENAME_RE = re.compile(r"^(?:\d+\.\d+(?:\.\d+)?|[A-Z]\.\d+)-.+\.md$")
+
+
+def is_chapter_file(path: Path) -> bool:
+    return CHAPTER_FILENAME_RE.match(path.name) is not None
+
+
 def main() -> int:
     root = Path(__file__).resolve().parents[2]
-    targets = [p for p in root.rglob("*.md") if ".git" not in p.parts and "node_modules" not in p.parts]
+    targets = [
+        p
+        for p in root.rglob("*.md")
+        if ".git" not in p.parts
+        and "node_modules" not in p.parts
+        and is_chapter_file(p)
+    ]
     errors: list[str] = []
     for path in targets:
         errors.extend(validate(path))
@@ -69,7 +83,7 @@ def main() -> int:
         for err in errors:
             print(f"::error::{err}")
         return 1
-    print(f"✓ front-matter validation OK ({len(targets)} files scanned)")
+    print(f"✓ front-matter validation OK ({len(targets)} chapter files scanned)")
     return 0
 
 

@@ -1,3 +1,10 @@
+---
+chapter: "A.10"
+title: "유즈케이스: 크로스 플랫폼 콘텐츠 적응"
+claude_model: claude-opus-4-7
+last_updated: 2026-05-19
+---
+
 # 유즈케이스: 크로스 플랫폼 콘텐츠 적응
 
 > **PM 역량**: GTM 전략 / 콘텐츠 마케팅 / 채널 최적화

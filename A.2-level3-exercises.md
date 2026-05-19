@@ -1,3 +1,10 @@
+---
+chapter: "A.2"
+title: "레벨 3 실습: 나만의 Claude Code 워크플로우 설계하기"
+claude_model: claude-opus-4-7
+last_updated: 2026-05-19
+---
+
 # 레벨 3 실습: 나만의 Claude Code 워크플로우 설계하기
 
 ## 이 실습에 대하여
