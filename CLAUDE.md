@@ -1,7 +1,7 @@
 # CLAUDE.md — AI_PM 가이드 (루트)
 
 > 이 파일은 Claude Code가 본 레포에서 작업할 때의 행동 규칙입니다.
-> 가이드 챕터 3.2가 이 파일을 worked example로 인용합니다.
+> 가이드 챕터 3.2 / 3.2.1 / 3.2.2 가 이 파일을 worked example 로 인용합니다.
 
 ---
 
@@ -22,12 +22,18 @@
 
 ## 3. Workflows — 모든 슬래시/스킬에 4섹션 의무
 
-모든 `templates/commands/*` 와 `skills/*/SKILL.md` 는 다음 4섹션을 가집니다.
+모든 `templates/commands/*` 와 `skills/*/SKILL.md` 와 `.claude/agents/*` 는 다음 4섹션을 가집니다.
 
 - **Task** — 무엇을 한다.
 - **Scope** — 어디까지 한다, 어디는 안 한다.
 - **Length** — 출력 길이 (예: 800–1200자).
 - **Format** — 출력 포맷 (markdown / JSON / XML 등).
+
+현재 자산 (참고):
+- 슬래시 9종: `today`, `prd`, `status`, `discovery`, `competitor`, `briefing`, `review`, `postmortem`, `retro`
+- 스킬 5종: `prd-generator`, `discovery-synthesizer`, `competitor-battlecard`, `experiment-analyzer`, `kpi-card-builder`
+- 서브에이전트 3종: `engineering-reviewer`, `exec-advisor`, `user-researcher`
+- 훅 3종: `stop-notify.sh`, `posttooluse-fmt.sh`, `sessionstart-load.sh`
 
 ## 4. Tools — 도구·모델
 
@@ -35,7 +41,8 @@
 - effort: **xhigh** (편집/에이전트 작업), **high** (리뷰), **medium** (단순 lookup).
 - thinking: adaptive (off-by-default). 다단계 추론이 필요할 때만 켠다.
 - 컨텍스트: 1M. 안정 영역(이 파일, `INDEX.md`)을 상단에 둬 prompt caching 적중률을 높인다.
-- MCP: Notion / GitHub / n8n. SoT 정책은 `docs/operations/sot-policy.md`(예정).
+- MCP: Notion / GitHub / n8n. SoT 정책은 `docs/operations/sot-policy.md`.
+- Hooks: `templates/hooks/` 의 3종 스크립트를 `~/.claude/hooks/` 로 복사하면 SessionStart / PostToolUse / Stop 폐루프가 작동.
 
 ## 5. Voice — 톤
 
@@ -59,7 +66,10 @@
 ## 8. Knowledge Map — 지식 진입점
 
 - 모든 작업은 `INDEX.md` 를 먼저 읽고 관련 파일만 펼친다.
+- 챕터는 `docs/partN-*/` 폴더 구조로 배치. README 의 목차가 진입점.
+- 운영 문서: `docs/operations/` (SoT 정책 + 폐루프 운영).
 - 변경 시 `CHANGELOG.md` 갱신 + 챕터 front-matter `last_updated` 갱신.
+- CI 자동 검증: `.github/workflows/` (lint · links · frontmatter).
 
 ---
 
@@ -72,7 +82,7 @@
 
 ## 폐루프
 
-- 주 1회 `/retro` (예정) 로 트랜스크립트 분석.
+- 주 1회 `/retro` 로 트랜스크립트 분석 (`templates/commands/retro.md`). 운영 가이드: `docs/operations/closed-loop.md`.
 - 자주 고치는 항목은 본 파일 또는 스킬로 흡수. 한 번뿐인 지시는 흡수하지 않는다.
 - 룰 중복 금지: **One rule = one place.**
 
@@ -80,4 +90,4 @@
 
 last_updated: 2026-05-19
 claude_model: claude-opus-4-7
-guide_version: v1.1 (P0)
+guide_version: v1.2

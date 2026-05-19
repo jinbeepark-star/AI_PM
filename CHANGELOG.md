@@ -34,11 +34,29 @@
 - `.github/workflows/` — lint.yml (markdownlint + 인코딩 detector), links.yml (lychee), frontmatter.yml.
 - `.github/scripts/validate_frontmatter.py` — front-matter 스키마 검증.
 
-### Planned (v1.2 / v1.3)
-- 폴더 재편 (`docs/partN/...`) — 36개 cross-link 일괄 수정 PR.
-- 신규 챕터: **3.2.1 패턴 카탈로그** · **3.6 Claude Code on the web**.
-- 기존 챕터 35개에 front-matter 일괄 추가.
-- Part 1~3 4.7 기준 재검수 (모드/effort, adaptive thinking, subagent fan-out).
+---
+
+## [v1.2] — 2026-05-19 (Structure & Content)
+
+### Added
+- 신규 챕터 `docs/part3-advanced/3.2.1-claude-md-patterns.md` — mono / multi-folder / layered 패턴 카탈로그, 5문항 선택 가이드, 안티패턴.
+- 신규 챕터 `docs/part3-advanced/3.6-claude-code-on-the-web.md` — 4가지 실행 표면(CLI / Web·Mobile / GitHub Action / Cloud worktree), 네트워크 정책 3모드, 검증 사다리 3단의 자동화 가능성.
+- 기존 챕터 36개에 YAML front-matter 일괄 추가 (chapter / title / claude_model / last_updated) — CI frontmatter validator 가 실제 강제 가능한 상태.
+
+### Changed
+- **폴더 재편**: 38개 챕터를 flat 루트 → `docs/partN-*/` 폴더 구조로 이동. git mv 로 history 보존 (similarity 97-100%).
+  - 자동 링크 갱신: 138 markdown link + 38 INDEX.md 백틱 경로 일괄 재계산 (`/tmp/migrate_to_docs.py`).
+- `docs/part1-foundations/1.2-what-is-claude-code.md` — 본 가이드의 기준 모델 사양 표 추가 (1M context, Files API, prompt caching, adaptive thinking, 고해상도 이미지).
+- `docs/part2-basics/2.2-modes-and-depth.md` — **4.7 변경 반영 가장 큰 챕터**. extended thinking budget 제거 명시, effort + adaptive thinking 2축 모델 신규 절(2.0), 4.6→4.7 syntax 매핑, 요점 정리 표 확장.
+- `docs/part2-basics/2.4-custom-subagents.md` — 4.7 의 fewer-subagents-by-default 행동, fan-out 트리거 명시 요구.
+- `docs/part2-basics/2.5-agent-teams.md` — 사용자 측 3–6 병렬 세션 운영 패턴, Cloud worktree(3.6) 와 Stop 훅(2.7) 연결.
+- `docs/part3-advanced/3.2-claude-md-deep-dive.md` — 3.2 / 3.2.1 / 3.2.2 시리즈의 위치 callout, 루트 `/CLAUDE.md` worked example 링크.
+- 루트 `CLAUDE.md` — 자산 현황(슬래시 9 · 스킬 5 · 에이전트 3 · 훅 3) 명시, Hooks 항목 추가, Knowledge Map 갱신, `/retro` 가 실제 자산임을 반영.
+- README — Part 3 표에 3.2.1 / 3.6 행 추가.
+- INDEX.md — 신규 챕터 2종 등재.
+
+### Migration notes
+- 이전 `(./X.X-name.md)` 링크들은 모두 `(./docs/partN/X.X-name.md)` 또는 part-relative 경로로 갱신됨. 외부 북마크가 있다면 갱신 필요.
 
 ---
 
