@@ -1,0 +1,15 @@
+# lychee ignore patterns — 외부에서 검증 의미 없는 URL 들
+
+# GitHub dynamic URLs (issues/PR/new 등 — 본 레포 운영 url, 인증 필요할 수도)
+^https://github\.com/kimsanguine/AI_PM/(issues|discussions|pull|new|settings|actions)
+
+# Notion 스킴 — 외부 검증 불가
+^notion://
+
+# Claude 플랫폼 docs — rate limit / CI 환경에서 종종 429
+^https://platform\.claude\.com/
+^https://code\.claude\.com/
+^https://claude\.com/
+
+# Claude Code session URL (커밋 footer 의 trailer, private)
+^https://claude\.ai/code/
