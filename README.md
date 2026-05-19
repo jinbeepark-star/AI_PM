@@ -115,10 +115,12 @@ PM 시간 배분도 같이 바뀝니다 — 문서 작성·회의·데이터 취
 | --- | --- | --- | --- |
 | 3.1 | [MCP 연동](./docs/part3-advanced/3.1-mcp-integration.md) | Notion/Linear/Slack/GitHub를 하나의 터미널에서 연결 | P → L |
 | 3.2 | [CLAUDE.md 심화](./docs/part3-advanced/3.2-claude-md-deep-dive.md) | 폴더 구조, YAML front matter, 8축 프레임워크 | P → L |
+| 3.2.1 | [CLAUDE.md 패턴 카탈로그](./docs/part3-advanced/3.2.1-claude-md-patterns.md) | mono / multi-folder / layered 패턴, 선택 가이드 | P → L |
 | 3.2.2 | [4.7 시대의 CLAUDE.md](./docs/part3-advanced/3.2.2-claude-md-for-4-7.md) | Literal following 대응, 8축 detail, 마이그레이션 체크리스트 | P → L |
 | 3.3 | [슬래시 커맨드](./docs/part3-advanced/3.3-slash-commands.md) | /today, /prd, /status 등 반복 워크플로우 자동화 | P → L |
 | 3.4 | [커스텀 스킬](./docs/part3-advanced/3.4-custom-skills.md) | SKILL.md 기반 재사용 워크플로우 패키지 | P → L |
 | 3.5 | [외부 자동화 (n8n)](./docs/part3-advanced/3.5-automation-n8n.md) | 스케줄/이벤트 기반 워크플로우 구축 | P → L |
+| 3.6 | [Claude Code on the web](./docs/part3-advanced/3.6-claude-code-on-the-web.md) | 웹·모바일·GitHub Action 실행 환경, 네트워크 정책, cloud worktree | P → L |
 
 ### Part 4: Discovery — 문제 발견
 

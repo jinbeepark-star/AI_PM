@@ -35,10 +35,12 @@
 
 - `docs/part3-advanced/3.1-mcp-integration.md` — use: Notion / Linear / Slack / GitHub MCP
 - `docs/part3-advanced/3.2-claude-md-deep-dive.md` — use: CLAUDE.md 8축 프레임워크
+- `docs/part3-advanced/3.2.1-claude-md-patterns.md` — use: 패턴 카탈로그 (mono / multi-folder / layered)
 - `docs/part3-advanced/3.2.2-claude-md-for-4-7.md` — use: 4.7 시대 CLAUDE.md (literal following, 마이그레이션)
 - `docs/part3-advanced/3.3-slash-commands.md` — use: 슬래시 커맨드 (4섹션 표준)
 - `docs/part3-advanced/3.4-custom-skills.md` — use: SKILL.md 패키지
 - `docs/part3-advanced/3.5-automation-n8n.md` — use: 외부 자동화
+- `docs/part3-advanced/3.6-claude-code-on-the-web.md` — use: 웹·모바일·GitHub Action 실행 환경
 
 ## Part 4 — Discovery
 
