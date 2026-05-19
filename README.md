@@ -203,7 +203,6 @@ PM 시간 배분도 같이 바뀝니다 — 문서 작성·회의·데이터 취
 AI_PM/
 ├── CLAUDE.md                       # 루트 dogfood (모델·톤·규칙)
 ├── INDEX.md                        # 주석 달린 지식 지도
-├── EXAMPLES.md                     # 260317_* 프로젝트 ↔ 챕터 매핑
 ├── CHANGELOG.md                    # 버전 이력
 ├── 00-index.md                     # 전체 목차 및 학습 가이드
 │
@@ -232,10 +231,8 @@ AI_PM/
 │   ├── CLAUDE-md-starter.md
 │   └── commands/                   # /today, /prd, /status
 │
-├── skills/                         # 재사용 스킬
-│   └── prd-generator/
-│
-└── 260317_*/                       # A.1 러닝 시나리오의 산출물 (EXAMPLES.md 참조)
+└── skills/                         # 재사용 스킬
+    └── prd-generator/
 ```
 
 > 🔭 **v1.2 예정**: `docs/partN/...` 폴더 재편, 신규 챕터(2.7 Hooks · 3.2.2 4.7 시대 CLAUDE.md · 3.6 Claude Code on the web), `templates/claude-home/`, `templates/hooks/`, `.claude/agents/`, 운영 문서.

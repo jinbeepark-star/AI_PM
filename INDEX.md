@@ -12,7 +12,6 @@
 - `README.md` — owner: @kimsanguine — use: 첫 진입점, 학습 동선 — freshness: 2026-05
 - `CLAUDE.md` — owner: @kimsanguine — use: Claude Code 행동 규칙 (8축) — freshness: 2026-05
 - `INDEX.md` (본 파일) — owner: @kimsanguine — use: 지식 지도 — freshness: 2026-05
-- `EXAMPLES.md` — owner: @kimsanguine — use: `260317_*` ↔ 챕터 매핑 — freshness: 2026-05
 - `CHANGELOG.md` — owner: @kimsanguine — use: 버전 이력 — freshness: 2026-05
 - `00-index.md` — owner: @kimsanguine — use: 챕터 목차(상세) — freshness: 2026-05
 
@@ -68,7 +67,7 @@
 
 ## Appendix
 
-- `A.1-running-scenario.md` — use: `260317_*` 프로젝트의 출처 시나리오
+- `A.1-running-scenario.md` — use: Discovery → Delivery → Growth 전체 흐름
 - `A.2-level3-exercises.md`
 - `A.3-usecase-scenarios.md`
 - `A.4-usecase-daily-briefing.md`
@@ -92,12 +91,6 @@
 - `samples/ab-test-results.csv` — use: 7.1 A/B 분석 실습
 - `samples/competitor-data.json` — use: 4.2 경쟁사 분석 실습
 - `samples/user-survey-results.csv` — use: 4.1 유저 리서치 실습
-
-## 예제 프로젝트 (L0 → L1 스캐폴딩)
-
-- `260317_community_manager/` — 자세한 매핑은 `EXAMPLES.md`
-- `260317_seo_optimizer/`
-- `260317_voice_clone_studio/`
 
 ## .github (메타)
 

@@ -59,7 +59,6 @@
 ## 8. Knowledge Map — 지식 진입점
 
 - 모든 작업은 `INDEX.md` 를 먼저 읽고 관련 파일만 펼친다.
-- `EXAMPLES.md` 는 `260317_*` 프로젝트와 챕터 매핑.
 - 변경 시 `CHANGELOG.md` 갱신 + 챕터 front-matter `last_updated` 갱신.
 
 ---
