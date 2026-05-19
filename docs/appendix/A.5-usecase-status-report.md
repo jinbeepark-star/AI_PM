@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 이해관계자 커뮤니케이션 / 프로젝트 가시성 / 리스크 관리
 > **난이도**: J → P
-> **관련 문서**: [3.1-mcp-integration.md](./3.1-mcp-integration.md), [7.2-growth-kpi-dashboard.md](./7.2-growth-kpi-dashboard.md)
+> **관련 문서**: [3.1-mcp-integration.md](../part3-advanced/3.1-mcp-integration.md), [7.2-growth-kpi-dashboard.md](../part7-growth/7.2-growth-kpi-dashboard.md)
 
 ---
 

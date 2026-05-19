@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 세일즈 인에이블먼트 / 경쟁 분석 / GTM 전략
 > **난이도**: P → L
-> **관련 문서**: [4.2-discovery-competitive-analysis.md](./4.2-discovery-competitive-analysis.md), [3.4-custom-skills.md](./3.4-custom-skills.md)
+> **관련 문서**: [4.2-discovery-competitive-analysis.md](../part4-discovery/4.2-discovery-competitive-analysis.md), [3.4-custom-skills.md](../part3-advanced/3.4-custom-skills.md)
 
 ---
 

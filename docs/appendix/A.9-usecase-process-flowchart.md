@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 프로세스 설계 / 시스템 사고 / 커뮤니케이션
 > **난이도**: J → P
-> **관련 문서**: [5.1-definition-write-prd.md](./5.1-definition-write-prd.md), [6.1-delivery-vibe-coding.md](./6.1-delivery-vibe-coding.md)
+> **관련 문서**: [5.1-definition-write-prd.md](../part5-definition/5.1-definition-write-prd.md), [6.1-delivery-vibe-coding.md](../part6-delivery/6.1-delivery-vibe-coding.md)
 
 ---
 

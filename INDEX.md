@@ -17,68 +17,68 @@
 
 ## Part 1 — Foundations
 
-- `1.1-why-now.md` — use: AI 네이티브 PM의 명제
-- `1.2-what-is-claude-code.md` — use: Claude Code 정의·비교
-- `1.3-install-and-first-run.md` — use: 설치 + 첫 실행
+- `docs/part1-foundations/1.1-why-now.md` — use: AI 네이티브 PM의 명제
+- `docs/part1-foundations/1.2-what-is-claude-code.md` — use: Claude Code 정의·비교
+- `docs/part1-foundations/1.3-install-and-first-run.md` — use: 설치 + 첫 실행
 
 ## Part 2 — Basics
 
-- `2.1-files-and-input.md` — use: 파일/이미지 입력, XML 태그 패턴
-- `2.2-modes-and-depth.md` — use: effort · adaptive thinking
-- `2.3-project-memory.md` — use: 메모리 계층 (global ↔ repo)
-- `2.4-custom-subagents.md` — use: 서브에이전트 정의
-- `2.5-agent-teams.md` — use: 멀티에이전트 + 병렬 세션
-- `2.6-human-in-the-loop.md` — use: HITL · 검증 사다리
-- `2.7-hooks.md` — use: SessionStart / PostToolUse / Stop 훅 (폐루프 자동화)
+- `docs/part2-basics/2.1-files-and-input.md` — use: 파일/이미지 입력, XML 태그 패턴
+- `docs/part2-basics/2.2-modes-and-depth.md` — use: effort · adaptive thinking
+- `docs/part2-basics/2.3-project-memory.md` — use: 메모리 계층 (global ↔ repo)
+- `docs/part2-basics/2.4-custom-subagents.md` — use: 서브에이전트 정의
+- `docs/part2-basics/2.5-agent-teams.md` — use: 멀티에이전트 + 병렬 세션
+- `docs/part2-basics/2.6-human-in-the-loop.md` — use: HITL · 검증 사다리
+- `docs/part2-basics/2.7-hooks.md` — use: SessionStart / PostToolUse / Stop 훅 (폐루프 자동화)
 
 ## Part 3 — Advanced
 
-- `3.1-mcp-integration.md` — use: Notion / Linear / Slack / GitHub MCP
-- `3.2-claude-md-deep-dive.md` — use: CLAUDE.md 8축 프레임워크
-- `3.2.2-claude-md-for-4-7.md` — use: 4.7 시대 CLAUDE.md (literal following, 마이그레이션)
-- `3.3-slash-commands.md` — use: 슬래시 커맨드 (4섹션 표준)
-- `3.4-custom-skills.md` — use: SKILL.md 패키지
-- `3.5-automation-n8n.md` — use: 외부 자동화
+- `docs/part3-advanced/3.1-mcp-integration.md` — use: Notion / Linear / Slack / GitHub MCP
+- `docs/part3-advanced/3.2-claude-md-deep-dive.md` — use: CLAUDE.md 8축 프레임워크
+- `docs/part3-advanced/3.2.2-claude-md-for-4-7.md` — use: 4.7 시대 CLAUDE.md (literal following, 마이그레이션)
+- `docs/part3-advanced/3.3-slash-commands.md` — use: 슬래시 커맨드 (4섹션 표준)
+- `docs/part3-advanced/3.4-custom-skills.md` — use: SKILL.md 패키지
+- `docs/part3-advanced/3.5-automation-n8n.md` — use: 외부 자동화
 
 ## Part 4 — Discovery
 
-- `4.1-discovery-user-research.md`
-- `4.2-discovery-competitive-analysis.md`
+- `docs/part4-discovery/4.1-discovery-user-research.md`
+- `docs/part4-discovery/4.2-discovery-competitive-analysis.md`
 
 ## Part 5 — Definition
 
-- `5.1-definition-write-prd.md`
-- `5.2-definition-product-strategy.md`
+- `docs/part5-definition/5.1-definition-write-prd.md`
+- `docs/part5-definition/5.2-definition-product-strategy.md`
 
 ## Part 6 — Delivery
 
-- `6.1-delivery-vibe-coding.md`
-- `6.2-delivery-visual-assets.md`
-- `6.3-delivery-github-deploy.md`
+- `docs/part6-delivery/6.1-delivery-vibe-coding.md`
+- `docs/part6-delivery/6.2-delivery-visual-assets.md`
+- `docs/part6-delivery/6.3-delivery-github-deploy.md`
 
 ## Part 7 — Growth
 
-- `7.1-growth-experiment-analysis.md`
-- `7.2-growth-kpi-dashboard.md`
-- `7.3-ai-observability.md`
+- `docs/part7-growth/7.1-growth-experiment-analysis.md`
+- `docs/part7-growth/7.2-growth-kpi-dashboard.md`
+- `docs/part7-growth/7.3-ai-observability.md`
 
 ## Part 8 — Strategy
 
-- `8.1-ai-product-strategy.md`
-- `8.2-growth-path.md`
+- `docs/part8-strategy/8.1-ai-product-strategy.md`
+- `docs/part8-strategy/8.2-growth-path.md`
 
 ## Appendix
 
-- `A.1-running-scenario.md` — use: Discovery → Delivery → Growth 전체 흐름
-- `A.2-level3-exercises.md`
-- `A.3-usecase-scenarios.md`
-- `A.4-usecase-daily-briefing.md`
-- `A.5-usecase-status-report.md`
-- `A.6-usecase-battle-cards.md`
-- `A.7-usecase-customer-personas.md`
-- `A.8-usecase-investment-memo.md`
-- `A.9-usecase-process-flowchart.md`
-- `A.10-usecase-content-adaptation.md`
+- `docs/appendix/A.1-running-scenario.md` — use: Discovery → Delivery → Growth 전체 흐름
+- `docs/appendix/A.2-level3-exercises.md`
+- `docs/appendix/A.3-usecase-scenarios.md`
+- `docs/appendix/A.4-usecase-daily-briefing.md`
+- `docs/appendix/A.5-usecase-status-report.md`
+- `docs/appendix/A.6-usecase-battle-cards.md`
+- `docs/appendix/A.7-usecase-customer-personas.md`
+- `docs/appendix/A.8-usecase-investment-memo.md`
+- `docs/appendix/A.9-usecase-process-flowchart.md`
+- `docs/appendix/A.10-usecase-content-adaptation.md`
 
 ## 자산
 

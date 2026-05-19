@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 전략적 사고 / 재무 모델링 / 이해관계자 설득
 > **난이도**: P → L
-> **관련 문서**: [5.2-definition-product-strategy.md](./5.2-definition-product-strategy.md), [A.3-usecase-scenarios.md](./A.3-usecase-scenarios.md)
+> **관련 문서**: [5.2-definition-product-strategy.md](../part5-definition/5.2-definition-product-strategy.md), [A.3-usecase-scenarios.md](./A.3-usecase-scenarios.md)
 
 ---
 

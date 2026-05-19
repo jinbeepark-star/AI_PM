@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 운영 효율 / 정보 종합 / 의사결정 속도
 > **난이도**: J → P
-> **관련 문서**: [3.1-mcp-integration.md](./3.1-mcp-integration.md), [3.5-automation-n8n.md](./3.5-automation-n8n.md)
+> **관련 문서**: [3.1-mcp-integration.md](../part3-advanced/3.1-mcp-integration.md), [3.5-automation-n8n.md](../part3-advanced/3.5-automation-n8n.md)
 
 ---
 

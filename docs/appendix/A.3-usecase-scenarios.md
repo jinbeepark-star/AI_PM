@@ -555,12 +555,12 @@ description: |
 
 | 시나리오 | 관련 문서 | 관계 |
 | --- | --- | --- |
-| 시나리오 1 (시장 규모) | [5.2-definition-product-strategy.md](./5.2-definition-product-strategy.md) | 전략 수립 시 시장 데이터 활용 |
-| 시나리오 2 (인사이트 덱) | [3.1-mcp-integration.md](./3.1-mcp-integration.md) | MCP 설정이 선행 필요 |
-| 시나리오 3 (피드백 합성) | [4.1-discovery-user-research.md](./4.1-discovery-user-research.md) | 유저 리서치의 확장 버전 |
-| 시나리오 4 (실사) | [4.2-discovery-competitive-analysis.md](./4.2-discovery-competitive-analysis.md) | 경쟁 분석 프레임워크 재활용 |
-| 시나리오 5 (멀티소스) | [7.1-growth-experiment-analysis.md](./7.1-growth-experiment-analysis.md) | 실험 분석의 데이터 결합 버전 |
-| 시나리오 6 (지표 자동화) | [7.2-growth-kpi-dashboard.md](./7.2-growth-kpi-dashboard.md) | KPI 대시보드의 자동화 확장 |
+| 시나리오 1 (시장 규모) | [5.2-definition-product-strategy.md](../part5-definition/5.2-definition-product-strategy.md) | 전략 수립 시 시장 데이터 활용 |
+| 시나리오 2 (인사이트 덱) | [3.1-mcp-integration.md](../part3-advanced/3.1-mcp-integration.md) | MCP 설정이 선행 필요 |
+| 시나리오 3 (피드백 합성) | [4.1-discovery-user-research.md](../part4-discovery/4.1-discovery-user-research.md) | 유저 리서치의 확장 버전 |
+| 시나리오 4 (실사) | [4.2-discovery-competitive-analysis.md](../part4-discovery/4.2-discovery-competitive-analysis.md) | 경쟁 분석 프레임워크 재활용 |
+| 시나리오 5 (멀티소스) | [7.1-growth-experiment-analysis.md](../part7-growth/7.1-growth-experiment-analysis.md) | 실험 분석의 데이터 결합 버전 |
+| 시나리오 6 (지표 자동화) | [7.2-growth-kpi-dashboard.md](../part7-growth/7.2-growth-kpi-dashboard.md) | KPI 대시보드의 자동화 확장 |
 
 ---
 

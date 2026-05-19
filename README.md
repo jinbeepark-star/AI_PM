@@ -93,84 +93,84 @@ PM 시간 배분도 같이 바뀝니다 — 문서 작성·회의·데이터 취
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 1.1 | [왜 지금인가](./1.1-why-now.md) | PM 역할 변화, 자동화/증강/직접판단 프레임워크 | 모든 레벨 |
-| 1.2 | [Claude Code란 무엇인가](./1.2-what-is-claude-code.md) | ChatGPT/Copilot과의 차이, CLI의 4가지 장점 | 모든 레벨 |
-| 1.3 | [설치와 첫 실행](./1.3-install-and-first-run.md) | 설치 가이드, 첫 대화 예시, 트러블슈팅 | J |
+| 1.1 | [왜 지금인가](./docs/part1-foundations/1.1-why-now.md) | PM 역할 변화, 자동화/증강/직접판단 프레임워크 | 모든 레벨 |
+| 1.2 | [Claude Code란 무엇인가](./docs/part1-foundations/1.2-what-is-claude-code.md) | ChatGPT/Copilot과의 차이, CLI의 4가지 장점 | 모든 레벨 |
+| 1.3 | [설치와 첫 실행](./docs/part1-foundations/1.3-install-and-first-run.md) | 설치 가이드, 첫 대화 예시, 트러블슈팅 | J |
 
 ### Part 2: 기본기 — Claude Code와 대화하기
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 2.1 | [파일과 입력](./2.1-files-and-input.md) | @파일 참조, 이미지 입력, 다중 출력 패턴 | J |
-| 2.2 | [모드와 깊이](./2.2-modes-and-depth.md) | Edit/Auto-Accept/Plan 모드, effort/adaptive thinking | J → P |
-| 2.3 | [프로젝트 메모리](./2.3-project-memory.md) | 메모리 계층 구조, CLAUDE.md 작성법 | P |
-| 2.4 | [커스텀 서브에이전트](./2.4-custom-subagents.md) | 엔지니어/경영진/리서처 에이전트 구성 | P → L |
-| 2.5 | [에이전트 팀](./2.5-agent-teams.md) | 멀티 에이전트 병렬 협업, Delegate 모드 | P → L |
-| 2.6 | [Human-in-the-Loop](./2.6-human-in-the-loop.md) | AI 파트너 철학, 루프 깊이 프레임워크, 가드레일 설계 | 모든 레벨 |
-| 2.7 | [Hooks](./2.7-hooks.md) | SessionStart / PostToolUse / Stop — 폐루프 자동화 | P → L |
+| 2.1 | [파일과 입력](./docs/part2-basics/2.1-files-and-input.md) | @파일 참조, 이미지 입력, 다중 출력 패턴 | J |
+| 2.2 | [모드와 깊이](./docs/part2-basics/2.2-modes-and-depth.md) | Edit/Auto-Accept/Plan 모드, effort/adaptive thinking | J → P |
+| 2.3 | [프로젝트 메모리](./docs/part2-basics/2.3-project-memory.md) | 메모리 계층 구조, CLAUDE.md 작성법 | P |
+| 2.4 | [커스텀 서브에이전트](./docs/part2-basics/2.4-custom-subagents.md) | 엔지니어/경영진/리서처 에이전트 구성 | P → L |
+| 2.5 | [에이전트 팀](./docs/part2-basics/2.5-agent-teams.md) | 멀티 에이전트 병렬 협업, Delegate 모드 | P → L |
+| 2.6 | [Human-in-the-Loop](./docs/part2-basics/2.6-human-in-the-loop.md) | AI 파트너 철학, 루프 깊이 프레임워크, 가드레일 설계 | 모든 레벨 |
+| 2.7 | [Hooks](./docs/part2-basics/2.7-hooks.md) | SessionStart / PostToolUse / Stop — 폐루프 자동화 | P → L |
 
 ### Part 3: 고급 설정 — 워크플로우 자동화 인프라
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 3.1 | [MCP 연동](./3.1-mcp-integration.md) | Notion/Linear/Slack/GitHub를 하나의 터미널에서 연결 | P → L |
-| 3.2 | [CLAUDE.md 심화](./3.2-claude-md-deep-dive.md) | 폴더 구조, YAML front matter, 8축 프레임워크 | P → L |
-| 3.2.2 | [4.7 시대의 CLAUDE.md](./3.2.2-claude-md-for-4-7.md) | Literal following 대응, 8축 detail, 마이그레이션 체크리스트 | P → L |
-| 3.3 | [슬래시 커맨드](./3.3-slash-commands.md) | /today, /prd, /status 등 반복 워크플로우 자동화 | P → L |
-| 3.4 | [커스텀 스킬](./3.4-custom-skills.md) | SKILL.md 기반 재사용 워크플로우 패키지 | P → L |
-| 3.5 | [외부 자동화 (n8n)](./3.5-automation-n8n.md) | 스케줄/이벤트 기반 워크플로우 구축 | P → L |
+| 3.1 | [MCP 연동](./docs/part3-advanced/3.1-mcp-integration.md) | Notion/Linear/Slack/GitHub를 하나의 터미널에서 연결 | P → L |
+| 3.2 | [CLAUDE.md 심화](./docs/part3-advanced/3.2-claude-md-deep-dive.md) | 폴더 구조, YAML front matter, 8축 프레임워크 | P → L |
+| 3.2.2 | [4.7 시대의 CLAUDE.md](./docs/part3-advanced/3.2.2-claude-md-for-4-7.md) | Literal following 대응, 8축 detail, 마이그레이션 체크리스트 | P → L |
+| 3.3 | [슬래시 커맨드](./docs/part3-advanced/3.3-slash-commands.md) | /today, /prd, /status 등 반복 워크플로우 자동화 | P → L |
+| 3.4 | [커스텀 스킬](./docs/part3-advanced/3.4-custom-skills.md) | SKILL.md 기반 재사용 워크플로우 패키지 | P → L |
+| 3.5 | [외부 자동화 (n8n)](./docs/part3-advanced/3.5-automation-n8n.md) | 스케줄/이벤트 기반 워크플로우 구축 | P → L |
 
 ### Part 4: Discovery — 문제 발견
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 4.1 | [유저 리서치](./4.1-discovery-user-research.md) | CSV/설문 분석, 인터뷰 합성, PM 판단 포인트 | P |
-| 4.2 | [경쟁사 분석](./4.2-discovery-competitive-analysis.md) | 구조화된 분석, 멀티에이전트 병렬 분석, 감성 분석 | P → L |
+| 4.1 | [유저 리서치](./docs/part4-discovery/4.1-discovery-user-research.md) | CSV/설문 분석, 인터뷰 합성, PM 판단 포인트 | P |
+| 4.2 | [경쟁사 분석](./docs/part4-discovery/4.2-discovery-competitive-analysis.md) | 구조화된 분석, 멀티에이전트 병렬 분석, 감성 분석 | P → L |
 
 ### Part 5: Definition — 해결책 정의
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 5.1 | [PRD 작성 (소크라틱 방법론)](./5.1-definition-write-prd.md) | 소크라틱 질문법, 반문 기반 대화, 멀티에이전트 리뷰 | P |
-| 5.2 | [제품 전략 (Rumelt 전략 커널)](./5.2-definition-product-strategy.md) | Diagnosis → Guiding Policy → Coherent Actions | P → L |
+| 5.1 | [PRD 작성 (소크라틱 방법론)](./docs/part5-definition/5.1-definition-write-prd.md) | 소크라틱 질문법, 반문 기반 대화, 멀티에이전트 리뷰 | P |
+| 5.2 | [제품 전략 (Rumelt 전략 커널)](./docs/part5-definition/5.2-definition-product-strategy.md) | Diagnosis → Guiding Policy → Coherent Actions | P → L |
 
 ### Part 6: Delivery — 직접 만들고 보여주기
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 6.1 | [바이브 코딩 + Pencil 연동](./6.1-delivery-vibe-coding.md) | 의도 기술 → Claude 구현 → PM 리뷰 루프 | J → P |
-| 6.2 | [비주얼 에셋](./6.2-delivery-visual-assets.md) | 5가지 비주얼 에셋 유형, Gemini API 연동 | P |
-| 6.3 | [GitHub 배포](./6.3-delivery-github-deploy.md) | Git 기초, Vercel 배포, 모니터링 | P |
+| 6.1 | [바이브 코딩 + Pencil 연동](./docs/part6-delivery/6.1-delivery-vibe-coding.md) | 의도 기술 → Claude 구현 → PM 리뷰 루프 | J → P |
+| 6.2 | [비주얼 에셋](./docs/part6-delivery/6.2-delivery-visual-assets.md) | 5가지 비주얼 에셋 유형, Gemini API 연동 | P |
+| 6.3 | [GitHub 배포](./docs/part6-delivery/6.3-delivery-github-deploy.md) | Git 기초, Vercel 배포, 모니터링 | P |
 
 ### Part 7: Growth — 측정과 운영
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 7.1 | [실험 분석](./7.1-growth-experiment-analysis.md) | A/B 테스트 분석, Impact 공식, ROI 시나리오 | P → L |
-| 7.2 | [KPI 대시보드](./7.2-growth-kpi-dashboard.md) | OMTM, KPI 정의 카드, 자동화 스크립트, 알림 체계 | L |
-| 7.3 | [AI 옵저빌리티](./7.3-ai-observability.md) | Helicone/LangSmith 기반 프로덕션 모니터링 | L |
+| 7.1 | [실험 분석](./docs/part7-growth/7.1-growth-experiment-analysis.md) | A/B 테스트 분석, Impact 공식, ROI 시나리오 | P → L |
+| 7.2 | [KPI 대시보드](./docs/part7-growth/7.2-growth-kpi-dashboard.md) | OMTM, KPI 정의 카드, 자동화 스크립트, 알림 체계 | L |
+| 7.3 | [AI 옵저빌리티](./docs/part7-growth/7.3-ai-observability.md) | Helicone/LangSmith 기반 프로덕션 모니터링 | L |
 
 ### Part 8: 전략과 성장 경로
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| 8.1 | [AI 제품 전략](./8.1-ai-product-strategy.md) | 4D 프레임워크 (Direction/Differentiation/Design/Deployment) | L |
-| 8.2 | [성장 경로](./8.2-growth-path.md) | J/P/L 로드맵, Before/After, 팀 도입 가이드 | 모든 레벨 |
+| 8.1 | [AI 제품 전략](./docs/part8-strategy/8.1-ai-product-strategy.md) | 4D 프레임워크 (Direction/Differentiation/Design/Deployment) | L |
+| 8.2 | [성장 경로](./docs/part8-strategy/8.2-growth-path.md) | J/P/L 로드맵, Before/After, 팀 도입 가이드 | 모든 레벨 |
 
 ### Appendix: 실전 연습 & 유즈케이스
 
 | # | 제목 | 핵심 내용 | 난이도 |
 | --- | --- | --- | --- |
-| A.1 | [러닝 시나리오](./A.1-running-scenario.md) | Discovery → Delivery → Growth 전체 흐름 체험 | P → L |
-| A.2 | [Level 3 실습](./A.2-level3-exercises.md) | 자동화/증강/직접판단 프레임워크 기반 프로젝트 적용 | P → L |
-| A.3 | [PM 실전 시나리오](./A.3-usecase-scenarios.md) | 마켓 사이징, 피드백 합성, M&A 실사 등 6가지 | P → L |
-| A.4 | [일일 브리핑 자동화](./A.4-usecase-daily-briefing.md) | Slack + Linear + Notion + GitHub 크로스 툴 브리핑 | J → P |
-| A.5 | [상태 보고서 자동화](./A.5-usecase-status-report.md) | 프로젝트 상태 보고서 자동 생성 및 이해관계자별 변형 | J → P |
-| A.6 | [배틀 카드](./A.6-usecase-battle-cards.md) | 경쟁사 배틀 카드 라이브러리 구축 | P → L |
-| A.7 | [고객 페르소나](./A.7-usecase-customer-personas.md) | 행동 데이터 클러스터링 기반 페르소나 구축 | P → L |
-| A.8 | [투자 메모](./A.8-usecase-investment-memo.md) | 비즈니스 케이스 작성 및 이사회 Q&A 시뮬레이션 | P → L |
-| A.9 | [프로세스 플로우차트](./A.9-usecase-process-flowchart.md) | Mermaid 기반 프로세스 문서화 | J → P |
-| A.10 | [콘텐츠 적응](./A.10-usecase-content-adaptation.md) | 릴리즈 콘텐츠 6채널 동시 적응 및 발행 자동화 | J → P |
+| A.1 | [러닝 시나리오](./docs/appendix/A.1-running-scenario.md) | Discovery → Delivery → Growth 전체 흐름 체험 | P → L |
+| A.2 | [Level 3 실습](./docs/appendix/A.2-level3-exercises.md) | 자동화/증강/직접판단 프레임워크 기반 프로젝트 적용 | P → L |
+| A.3 | [PM 실전 시나리오](./docs/appendix/A.3-usecase-scenarios.md) | 마켓 사이징, 피드백 합성, M&A 실사 등 6가지 | P → L |
+| A.4 | [일일 브리핑 자동화](./docs/appendix/A.4-usecase-daily-briefing.md) | Slack + Linear + Notion + GitHub 크로스 툴 브리핑 | J → P |
+| A.5 | [상태 보고서 자동화](./docs/appendix/A.5-usecase-status-report.md) | 프로젝트 상태 보고서 자동 생성 및 이해관계자별 변형 | J → P |
+| A.6 | [배틀 카드](./docs/appendix/A.6-usecase-battle-cards.md) | 경쟁사 배틀 카드 라이브러리 구축 | P → L |
+| A.7 | [고객 페르소나](./docs/appendix/A.7-usecase-customer-personas.md) | 행동 데이터 클러스터링 기반 페르소나 구축 | P → L |
+| A.8 | [투자 메모](./docs/appendix/A.8-usecase-investment-memo.md) | 비즈니스 케이스 작성 및 이사회 Q&A 시뮬레이션 | P → L |
+| A.9 | [프로세스 플로우차트](./docs/appendix/A.9-usecase-process-flowchart.md) | Mermaid 기반 프로세스 문서화 | J → P |
+| A.10 | [콘텐츠 적응](./docs/appendix/A.10-usecase-content-adaptation.md) | 릴리즈 콘텐츠 6채널 동시 적응 및 발행 자동화 | J → P |
 
 ---
 
@@ -178,9 +178,9 @@ PM 시간 배분도 같이 바뀝니다 — 문서 작성·회의·데이터 취
 
 | 레벨 | 추천 1번 | 추천 2번 | 추천 3번 |
 |---|---|---|---|
-| **J** (PM 0–2년) | [1.2 Claude Code란](./1.2-what-is-claude-code.md) | [1.3 설치와 첫 실행](./1.3-install-and-first-run.md) | [6.1 바이브 코딩](./6.1-delivery-vibe-coding.md) |
-| **P** (3–7년)    | [3.2 CLAUDE.md 심화](./3.2-claude-md-deep-dive.md) | [5.1 PRD 작성](./5.1-definition-write-prd.md) | [2.6 Human-in-the-Loop](./2.6-human-in-the-loop.md) |
-| **L** (7년+)     | [8.1 AI 제품 전략](./8.1-ai-product-strategy.md) | [3.5 외부 자동화 (n8n)](./3.5-automation-n8n.md) | [7.2 KPI 대시보드](./7.2-growth-kpi-dashboard.md) |
+| **J** (PM 0–2년) | [1.2 Claude Code란](./docs/part1-foundations/1.2-what-is-claude-code.md) | [1.3 설치와 첫 실행](./docs/part1-foundations/1.3-install-and-first-run.md) | [6.1 바이브 코딩](./docs/part6-delivery/6.1-delivery-vibe-coding.md) |
+| **P** (3–7년)    | [3.2 CLAUDE.md 심화](./docs/part3-advanced/3.2-claude-md-deep-dive.md) | [5.1 PRD 작성](./docs/part5-definition/5.1-definition-write-prd.md) | [2.6 Human-in-the-Loop](./docs/part2-basics/2.6-human-in-the-loop.md) |
+| **L** (7년+)     | [8.1 AI 제품 전략](./docs/part8-strategy/8.1-ai-product-strategy.md) | [3.5 외부 자동화 (n8n)](./docs/part3-advanced/3.5-automation-n8n.md) | [7.2 KPI 대시보드](./docs/part7-growth/7.2-growth-kpi-dashboard.md) |
 
 ## 빠른 시작
 

@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: GTM 전략 / 콘텐츠 마케팅 / 채널 최적화
 > **난이도**: J → P
-> **관련 문서**: [6.2-delivery-visual-assets.md](./6.2-delivery-visual-assets.md), [7.1-growth-experiment-analysis.md](./7.1-growth-experiment-analysis.md)
+> **관련 문서**: [6.2-delivery-visual-assets.md](../part6-delivery/6.2-delivery-visual-assets.md), [7.1-growth-experiment-analysis.md](../part7-growth/7.1-growth-experiment-analysis.md)
 
 ---
 
@@ -346,7 +346,7 @@ Terminal 입력:
 
 ---
 
-**이전 유즈케이스 목록**: [00-index.md](./00-index.md)로 돌아가기
+**이전 유즈케이스 목록**: [00-index.md](../../00-index.md)로 돌아가기
 
 
 ---

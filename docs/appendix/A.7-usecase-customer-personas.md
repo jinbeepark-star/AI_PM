@@ -9,7 +9,7 @@ last_updated: 2026-05-19
 
 > **PM 역량**: 고객 이해 / 세그멘테이션 / 제품 전략 기반
 > **난이도**: P → L
-> **관련 문서**: [4.1-discovery-user-research.md](./4.1-discovery-user-research.md), [5.2-definition-product-strategy.md](./5.2-definition-product-strategy.md)
+> **관련 문서**: [4.1-discovery-user-research.md](../part4-discovery/4.1-discovery-user-research.md), [5.2-definition-product-strategy.md](../part5-definition/5.2-definition-product-strategy.md)
 
 ---
 
@@ -133,17 +133,17 @@ Claude Code 응답:
 Terminal 입력:
 > 이제 각 클러스터에 정성 데이터를 매칭해줘.
 
-  1. Zendesk 티켓 (./data/zendesk-tickets-q4.csv)에서:
+  1. Zendesk 티켓 (../../data/zendesk-tickets-q4.csv)에서:
      - 각 클러스터별 상위 5개 이슈 카테고리
      - 평균 해결 시간
      - 감정(sentiment) 분포
 
-  2. NPS 코멘트 (./data/nps-responses-q4.csv)에서:
+  2. NPS 코멘트 (../../data/nps-responses-q4.csv)에서:
      - 각 클러스터별 NPS 점수
      - 긍정/부정 키워드 Top 10
      - 대표 코멘트 3개씩
 
-  3. 세일즈 CRM (./data/hubspot-deals-q4.csv)에서:
+  3. 세일즈 CRM (../../data/hubspot-deals-q4.csv)에서:
      - 각 클러스터에 해당하는 딜의 Win/Lose 비율
      - Lose 사유 Top 3
 
