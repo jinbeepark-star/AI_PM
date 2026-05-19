@@ -25,6 +25,11 @@ jobs:
             --max-cache-age 1d
             --no-progress
             --exclude-mail
-            --exclude "^https://github.com/kimsanguine/AI_PM/(issues|discussions|pull|new)"
+            --exclude-loopback
+            --accept '200,204,206,403,429'
+            --timeout 20
+            --max-retries 2
+            --exclude-path '.git'
+            --exclude-path 'node_modules'
             './**/*.md'
           fail: true
