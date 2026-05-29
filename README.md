@@ -26,6 +26,8 @@
 ```
 
 > 자매 PM 도구: **[hplan](https://github.com/kimsanguine/hplan)** — Product Build Gate (만들기 전 검증). AI_PM 이 "어떻게 만들 것인가" 라면, hplan 은 "정말 만들 것인가" 의 30분 체크리스트.
+>
+> 프롬프트 레지스트리: **[ai-prompts-playbook](https://github.com/kimsanguine/ai-prompts-playbook)** — 본 레포의 `/discovery`, `/competitor`, `/prd`와 PM 스킬 패턴을 재사용 가능한 prompt card로 정리한 companion playbook.
 
 ---
 
@@ -202,7 +204,7 @@ PM 시간 배분도 같이 바뀝니다 — 문서 작성·회의·데이터 취
 "훅으로 업무자동화를 만들고 싶어"               → 2.7-hooks.md + templates/hooks/
 "샘플 데이터로 실습하고 싶어"             → samples/README.md
 "전체 PM 워크플로우를 한 번에 보고 싶어"   → A.1-running-scenario.md
-"AI 프롬프트 작성법이 궁금해"             → ai-prompts-playbook (별도 레포)
+"AI 프롬프트 작성법이 궁금해"             → ai-prompts-playbook (AI_PM companion prompt registry)
 ```
 
 ---
