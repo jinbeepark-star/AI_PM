@@ -13,7 +13,8 @@
 
 ### Changed
 
-- 모델 베이스라인 일괄 갱신: `claude-opus-4-7` → `claude-opus-4-8` (front-matter · 배지 · agent/skill `model` 필드 · 사양표). 4.7 전용 챕터 `3.2.2` 와 과거 CHANGELOG 이력은 보존.
+- 모델 베이스라인 일괄 갱신: `claude-opus-4-7` → `claude-opus-4-8` (front-matter · 배지 · agent/skill `model` 필드 · 사양표).
+- 챕터 `3.2.2` 를 4.8 로 retarget — 리서치로 4.7 의 literal-following 행동 특성(literal following · adaptive-thinking-only · fewer-subagents · effort 존중)이 4.8 에 동일 적용됨을 공식 문서로 확인. 파일명은 URL 안정을 위해 유지하고 "4.8 에서 더해진 것"(effort 기본 high · Dynamic Workflows · mid-conversation system messages · 정직성 개선) 절을 추가. 4.6→4.7 마이그레이션 절과 과거 CHANGELOG 이력만 historical 로 유지.
 - `.markdownlint.json` 규칙 완화 — MD014 `false`, MD025 `front_matter_title`, MD029 `false`.
 
 ### Fixed
