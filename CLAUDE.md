@@ -30,6 +30,7 @@
 - **Format** — 출력 포맷 (markdown / JSON / XML 등).
 
 현재 자산 (참고):
+
 - 슬래시 9종: `today`, `prd`, `status`, `discovery`, `competitor`, `briefing`, `review`, `postmortem`, `retro`
 - 스킬 5종: `prd-generator`, `discovery-synthesizer`, `competitor-battlecard`, `experiment-analyzer`, `kpi-card-builder`
 - 서브에이전트 3종: `engineering-reviewer`, `exec-advisor`, `user-researcher`

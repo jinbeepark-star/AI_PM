@@ -9,6 +9,7 @@
 | `CLAUDE-md-starter.md` | 프로젝트 루트에 CLAUDE.md로 복사하여 사용. PM 워크스페이스 설정, HITL 규칙, 분석 규칙, 프레임워크 포함 |
 
 ### 사용법
+
 ```bash
 # 프로젝트 루트에 복사:
 cp templates/CLAUDE-md-starter.md ./CLAUDE.md
@@ -25,6 +26,7 @@ cp templates/CLAUDE-md-starter.md ./CLAUDE.md
 | `commands/status.md` | `/status` | [A.5 상태 보고서](../A.5-usecase-status-report.md) | 주간 상태 보고서 자동 생성 |
 
 ### 설치법
+
 ```bash
 # .claude/commands/ 폴더로 복사:
 mkdir -p .claude/commands
