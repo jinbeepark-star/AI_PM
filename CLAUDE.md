@@ -89,6 +89,6 @@
 
 ---
 
-last_updated: 2026-05-19
+last_updated: 2026-06-02
 claude_model: claude-opus-4-8
-guide_version: v1.2
+guide_version: v1.3

@@ -4,6 +4,25 @@
 
 ---
 
+## [v1.3.0] — 2026-06-02
+
+### Added
+
+- `LICENSE` — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) legal code 전문. README 배지와 일치.
+- `.lycheeignore` — `linear://` 스킴 무시 항목 추가.
+
+### Changed
+
+- 모델 베이스라인 일괄 갱신: `claude-opus-4-7` → `claude-opus-4-8` (front-matter · 배지 · agent/skill `model` 필드 · 사양표). 4.7 전용 챕터 `3.2.2` 와 과거 CHANGELOG 이력은 보존.
+- `.markdownlint.json` 규칙 완화 — MD014 `false`, MD025 `front_matter_title`, MD029 `false`.
+
+### Fixed
+
+- markdownlint CI 그린화 — 전역 `markdownlint-cli2 --fix` 로 공백 정리 약 1,230건. 잔여로 `competitor.md` 표와 `CLAUDE-md-starter.md` 헤딩을 수동 수정.
+- lychee 링크 CI 그린화 — docs/ 재편으로 stale 해진 상대링크 6건을 `docs/partN/` 경로로 교정.
+
+---
+
 ## [v1.1] — 2026-05-19 (P0: Dogfood)
 
 ### Added
@@ -37,6 +56,23 @@
 - `skills/` 신규 4종 — discovery-synthesizer · competitor-battlecard · experiment-analyzer · kpi-card-builder (각 SKILL.md + good/bad 예시).
 - `.github/workflows/` — lint.yml (markdownlint + 인코딩 detector), links.yml (lychee), frontmatter.yml.
 - `.github/scripts/validate_frontmatter.py` — front-matter 스키마 검증.
+
+---
+
+## [v1.2.1] — 2026-05-19
+
+### Added
+
+- 레포 배너 이미지 추가.
+- companion 레포 `ai-prompts-playbook` 링크 추가.
+
+### Changed
+
+- README — "Claude Code for PMs" 리드로 재포지셔닝.
+
+### Fixed
+
+- CI 워크플로 수정 — encoding-sanity self-match 수정, markdownlint 완화.
 
 ---
 

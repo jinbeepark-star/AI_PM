@@ -13,7 +13,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/kimsanguine/AI_PM)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 ![Claude](https://img.shields.io/badge/Claude-claude--opus--4--8-blue)
-![Version](https://img.shields.io/badge/guide-v1.2-success)
+![Version](https://img.shields.io/badge/guide-v1.3-success)
 
 ---
 
