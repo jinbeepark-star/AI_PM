@@ -3,7 +3,7 @@ name: kpi-card-builder
 description: "KPI 1개에 대한 정의 카드(이름·계산식·source·반응 임계치·소유자·반反사례) 를 생성한다. 한 카드 = 한 KPI 룰을 강제하고 KPI 가 측정 불가하면 정의를 거부한다."
 trigger: |
   "KPI 정의해줘", "이 지표 어떻게 측정해", "정의 카드 만들어" 요청 시.
-model: claude-opus-4-7
+model: claude-opus-4-8
 ---
 
 # Skill — KPI Card Builder

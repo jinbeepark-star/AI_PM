@@ -1,7 +1,7 @@
 ---
 chapter: "A.8"
 title: "유즈케이스: 비즈니스 케이스 / 투자 메모 작성"
-claude_model: claude-opus-4-7
+claude_model: claude-opus-4-8
 last_updated: 2026-05-19
 ---
 

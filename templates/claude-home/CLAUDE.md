@@ -46,7 +46,7 @@
 
 ## 모델 ID
 
-- 기본 모델은 `claude-opus-4-7`.
+- 기본 모델은 `claude-opus-4-8`.
 - 마케팅 이름 ("Claude 4 Opus" 등) 사용 금지. 항상 정자.
 
 ---
